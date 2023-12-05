@@ -36,19 +36,19 @@ This application does not owned any files from it's server. All contents are pro
 
 - [x] AniList
 - [x] Gogoanime
-- [x] Amvstr.me
+- [x] Consumet API
 
 # Updated
 In Version 0.0.3, I change the server api connecting to Amvstr.me to Consumet API. One of the most popular API for Anime, Manga, Light Novel, etc...
 
- Changed to Consumet API
- Video Quality Choices
- Remove Tags
- Added Genres
- Added Trailer Preview
- Added Download Links
- Added Manga Support
- Added Search Manga
+- [x] Changed to Consumet API
+- [x] Video Quality Choices
+- [x] Remove Tags
+- [x] Added Genres
+- [x] Added Trailer Preview
+- [x] Added Download Links
+- [x] Added Manga Support
+- [x] Added Search Manga
 
 # Donation
 If you like this application, please consider on supporting this project on [Ko-Fi](https://ko-fi.com/skyfreak)
