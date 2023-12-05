@@ -4,6 +4,9 @@ It does have a powerful player and fast server to assess you.
 
 Noted: This version is still on beta. You might encounter some errors along the way.
 
+![GitHub release (by tag)](https://img.shields.io/github/downloads/WarLock03/AniMega/v0.0.3/total?style=plastic&logo=github&color=Color&cacheSeconds=3600&link=https%3A%2F%2Fgithub.com%2FWarLock03%2FAniMega%2Freleases%2Ftag%2Fv0.0.3)
+
+
 # Preview
 Image 1|Image 2|Image 3|Image 4|
 |---|---|---|---|
@@ -22,12 +25,10 @@ This application will help you as it stream anime without ads.
 - [x] Auto Skip where you left off
 
 # Future Features
-- [ ] Quality Choices
 - [ ] Backup Stream Server
 - [ ] Search History List
 - [ ] Bookmark
 - [ ] Auto Skip Intro & Outro
-- [ ] Manga Reader
 - [ ] And many more
 
 ## Disclaimer
