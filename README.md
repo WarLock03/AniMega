@@ -38,9 +38,17 @@ This application does not owned any files from it's server. All contents are pro
 - [x] Gogoanime
 - [x] Amvstr.me
 
-# Special Thanks
-This application uses [amvstr.me](https://amvstr.me) api to get data and to stream anime. 
-Please support them for their efforts at [LiberaPay](https://en.liberapay.com/amvstrm/) or [ABA (USD/KHR)](https://nyt92.eu.org/donation#khmer)
+# Updated
+In Version 0.0.3, I change the server api connecting to Amvstr.me to Consumet API. One of the most popular API for Anime, Manga, Light Novel, etc...
+
+ Changed to Consumet API
+ Video Quality Choices
+ Remove Tags
+ Added Genres
+ Added Trailer Preview
+ Added Download Links
+ Added Manga Support
+ Added Search Manga
 
 # Donation
 If you like this application, please consider on supporting this project on [Ko-Fi](https://ko-fi.com/skyfreak)
