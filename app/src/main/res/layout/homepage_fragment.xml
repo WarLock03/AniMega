@@ -1,0 +1,96 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+		android:id="@+id/swiperefreshlayout1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<androidx.core.widget.NestedScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#212121">
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+				<androidx.viewpager.widget.ViewPager
+					android:id="@+id/viewpager1"
+					android:layout_width="match_parent"
+					android:layout_height="250dp" />
+				<LinearLayout
+					android:id="@+id/trending_linear"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/textview1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="5dp"
+						android:paddingTop="5dp"
+						android:paddingRight="5dp"
+						android:text="Trending Anime"
+						android:textSize="18sp"
+						android:textColor="#FFFFFF" />
+					<androidx.recyclerview.widget.RecyclerView
+						android:id="@+id/recyclerview1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="5dp" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/popular_linear"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/textview2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="5dp"
+						android:paddingTop="5dp"
+						android:paddingRight="5dp"
+						android:text="Popular Anime"
+						android:textSize="18sp"
+						android:textColor="#FFFFFF" />
+					<androidx.recyclerview.widget.RecyclerView
+						android:id="@+id/recyclerview2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="5dp" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/textview3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="5dp"
+						android:paddingTop="5dp"
+						android:paddingRight="5dp"
+						android:text="Trending Manga"
+						android:textSize="18sp"
+						android:textColor="#FFFFFF" />
+					<androidx.recyclerview.widget.RecyclerView
+						android:id="@+id/recyclerview3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="5dp" />
+				</LinearLayout>
+			</LinearLayout>
+		</androidx.core.widget.NestedScrollView>
+	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

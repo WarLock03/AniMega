@@ -1,0 +1,104 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#212121"
+		android:orientation="vertical">
+		<androidx.viewpager.widget.ViewPager
+			android:id="@+id/viewpager1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="5dp"
+			android:paddingBottom="5dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<LinearLayout
+				android:id="@+id/nav1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="13dp"
+				android:paddingTop="8dp"
+				android:paddingRight="13dp"
+				android:paddingBottom="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview1"
+					android:layout_width="25dp"
+					android:layout_height="25dp"
+					android:src="@drawable/icons8magnifyingglass32_2"
+					android:scaleType="fitXY" />
+				<TextView
+					android:id="@+id/textview1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:text="HOME"
+					android:textSize="14sp"
+					android:textColor="#FFFFFF" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/nav2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="13dp"
+				android:paddingTop="8dp"
+				android:paddingRight="13dp"
+				android:paddingBottom="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview2"
+					android:layout_width="25dp"
+					android:layout_height="25dp"
+					android:src="@drawable/glass"
+					android:scaleType="fitXY" />
+				<TextView
+					android:id="@+id/textview2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:text="SEARCH"
+					android:textSize="14sp"
+					android:textColor="#FFFFFF" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/nav3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="13dp"
+				android:paddingTop="8dp"
+				android:paddingRight="13dp"
+				android:paddingBottom="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview3"
+					android:layout_width="25dp"
+					android:layout_height="25dp"
+					android:src="@drawable/settings"
+					android:scaleType="fitXY" />
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:text="SETTING"
+					android:textSize="14sp"
+					android:textColor="#FFFFFF" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
